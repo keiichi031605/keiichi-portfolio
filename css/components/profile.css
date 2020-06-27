@@ -1,0 +1,33 @@
+.avatar {
+  height:240px;
+  width:240px;
+  border-radius: 50%;
+  margin: 24px;
+}
+
+.profile {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .profile {
+    font-size: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.profile p:last-child {
+  margin-bottom: 0;
+}
+
+.profile h1 {
+  font-weight: 300;
+}
+
+.profile .container {
+  max-width: 40rem;
+}
+

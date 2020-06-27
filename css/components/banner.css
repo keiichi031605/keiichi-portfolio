@@ -1,0 +1,7 @@
+/* Pagination */
+.pagination {
+  margin-bottom: 4rem;
+}
+.pagination > .btn {
+  border-radius: 2rem;
+}
