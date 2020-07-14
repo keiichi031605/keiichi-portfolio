@@ -1,0 +1,58 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact h3 {
+  margin: 0;
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #222;
+  letter-spacing: 2px;
+}
+
+.contact i {
+  color: #222;
+  font-size: 36px;
+  margin-right: 16px;
+}
+
+.contact-box {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr;
+  width: 50vw;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: #222;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 150px;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 4px;
+  padding: 8px;
+  width: fit-content;
+}
+
+.resume a:hover {
+  color: black;
+  border-color: black;
+  transition: .7s ease;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+}

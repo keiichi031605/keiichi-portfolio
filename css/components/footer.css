@@ -8,9 +8,11 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
 }
 
-.fab {
+.sns {
   color: black;
   font-size: 28px;
 }
