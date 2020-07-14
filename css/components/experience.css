@@ -25,10 +25,17 @@
   width: 50%;
 }
 
-.tl-container h3, h5 {
+.tl-container h3 {
   color: #FBF5F3;
   padding: 8px;
 }
+
+.tl-container h5 {
+  color: #FBF5F3;
+  padding: 8px;
+  padding-left: 50px;
+}
+
 .tl-container h4 {
   color: gray;
 }
