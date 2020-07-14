@@ -1,7 +1,7 @@
 .about-banner-img {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../images/About.jpg");
   object-fit: cover;
-  height: 120vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,11 +17,11 @@
 
 .about-text {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 36px;
   margin: 0 auto;
 
-  background-color: rgba(0, 0, 0, 0.58);
+  /*background-color: rgba(0, 0, 0, 0.58);*/
 }
 
 .text-box {
@@ -32,7 +32,7 @@
   padding: 12px;
   align-items: flex-start;
   justify-content: space-around;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Montserrat', sans-serif;
 }
 
