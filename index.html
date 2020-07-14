@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Squada+One&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela"> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <!-- Fontawesome CSS -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
@@ -19,160 +21,333 @@
 </head>
 
 <body>
-  <header>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-          <div class="text-white">
-            <h1><i class="fas fa-coffee pr-3"></i>Keiichi Katsuno</h1>
-          </div>
-        </a>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
+  <div id="home" class="banner-img">
+    <div id="navbar-wrapper">
+      <div class="navbar-name">
+        <a href="#home"></a>
+      </div>
+      <div class="navbar-list">
+        <ul>
+          <li><a href="#projects">PROJECT</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
     </div>
-  </header>
-
-  <section class="profile text-center">
-    <div class="container p-5">
-      <h2>It's Keiichi!</h2>
-      <img class="avatar" src="images/Keiichi.JPG" alt="Keiichi Katsuno">
-      <br>
-      <h3>Full-Stack Web Developer</h3>
-      <br>
-      <p class="lead text-muted">A Coffee & Tech Enthusiast, new to Melbourne! Passionated to learn new stuff for the investment myself, enjoying to work & live in a new place/environment!
-      <br>
-      Currently, I am seeking further knowledge & experience as a Junior Developer to continue to grow my dev skill.
-      <br>
-      </p>
+    <div class="banner-text-box">
+      <div class="banner-text">
+        <h2>KEIICHI KATSUNO</h2>
+        <p>Full-Stack Web Developer</p>
+        <p>Coffee & Tech Enthusiast</p>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <main role="main container">
-    <div class="row pl-5">
-      <div class="col-md-8">
-        <h1 class="pb-4 mb-4 font-italic border-bottom">
-          PROJECTS
-        </h1>
-        <div class="projects">
-          <h2 class="project-title">Coffeeffcient</h2>
-          <p class="project-date">Created at ---th July, 2020</p>
-          <p>This app is my objective which triggered me to start coding....ß</p>
-          <hr>
-          <h2 class="project-title">WhatSpot?</h2>
-          <p class="project-date">Created at 19th June, 2020</p>
-          <p>This app is for ....</p>
-          <hr>
-          <h2 class="project-title">Friendr</h2>
-          <p class="project-date">Created at 6th June, 2020</p>
-          <p>This app is Airbnb clone model...</p>
-          <hr>
+  <!-- PROJECTS -->
+  <div class="projects" id="projects">
+    <h2>PROJECT</h2>
+    <div class="projects-wrapper">
+      <a href="https://www.whatsthespot.com/" target="_blank">
+        <div class="card" id="card-0">
+          <img src="images/Whatspot.jpg" alt="baybe web preview">
+          <div class="story">
+            <div class="info">
+              <h3>WhatSpot</h3>
+              <p>The mobile app that you can share any places or recommendations with your friends so that you get more reliable information.</p>
+            </div>
+          </div>
         </div>
-
-        <h1 class="pb-4 mb-4 font-italic border-bottom">
-          EXPERIENCE
-        </h1>
-        <div class="experiences timeline">
-          <h2 class="experience-title">Quality Assurance Specialist</h2>
-          <h3>InverCafé Ltda, Chinchiná, Colombia</h3>
-          <p class="experience-date">Sep 2019 - Dec 2019</p>
-          <p>- Quality Management of harvested coffee beans for the overseas market</p>
-          <p>- Smooth Communication and Individual Collaboration with team members</p>
-          <hr>
-          <h2 class="experience-title">Production Manager</h2>
-          <h3>The Roasting Shed, London, The UK</h3>
-          <p class="experience-date">Jul 2018 - Sep 2019</p>
-          <p>- Production Management of the specialty coffee</p>
-          <p>- Day-to-day Analysis of roast profiles on the profiling software</p>
-          <hr>
-          <h2 class="experience-title">Relationship Manager</h2>
-          <h3>Yuasa Trading Co., Japan</h3>
-          <p class="experience-date">Apr 2013 - Jul 2017</p>
-          <p>- Building Firm Relationship with partners</p>
-          <p>- Logical Thinking & Problem Solving, achieving to double my area sales targets within a 12-month period</p>
-          <p>- High Responsibility with day to day Account Management & Order Management</p>
-          <hr>
+      </a>
+      <a href="#" target="_blank">
+        <div class="card" id="card-1">
+          <img src="./images/Cofficiently.jpg" alt="loch ness web preview">
+          <div class="story">
+            <div class="info">
+              <h3>Cofficiently</h3>
+              <p>This app is for the specialty coffee industry, I'm still working on... Launch soon!!</p>
+            </div>
+          </div>
         </div>
+      </a>
+      <!-- <a href="" target="_blank">
+        <div class="card" id="card-2">
+          <img src="./images/tipsy.png" alt="tipsy web preview">
+          <div class="story">
+            <div class="info">
+              <h3>Tipsy Bar</h3>
+              <p>A bar website built using the MVC Model to manage their menu drinks.</p>
+            </div>
+          </div>
+        </div>
+      </a> -->
+    </div>
+  </div>
 
-        <h1 class="pb-4 mb-4 font-italic border-bottom">
-          EDUCATION
-        </h1>
-        <div class="educations">
-          <h2 class="education-title">Le Wagon, Melbourne</h2>
-          <h3>Full-Stack Web Development</h3>
-          <p class="education-date">Apr 2020 - Jun 2020</p>
-          <p>Attended Le Wagon Melbourne (Batch #404)</p>
-          <p>- Intensive 9-week Coding Bootcamp learning Ruby, Rails, JavaScript ES6, HTML5/CSS, Bootstrap, GitHub and git</p>
-          <p>- Designed, implemented and shipped to
-          production a clone of Airbnb and a Rails prototype "WhatSpot"</p>
-          <p>- Successfully managed to learn and adapt to new stuff every time efficiently within a short period thanks to my passion and curiosity about coding.</p>
-          <hr>
-          <h2 class="education-title">Kinki University</h2>
+
+  <!-- ABOUT -->
+  <div id="about" class="about-banner-img">
+    <div class="about-title"><h2>ABOUT</h2></div>
+    <img src="images/Keiichi.jpg" alt="Keiichi">
+    <div class="main-container">
+      <div class="about-text">
+        <div class="text-box">
+          A Coffee & Tech Enthusiast, new to Melbourne! Enjoying working & living in a new environment with new technology also, am crazy about specialty coffee!
+        </div>
+        <div class="text-box">
+           For the past 6+ years, I've been involved in Sales & Marketing and Relationship & Production Management over the world. This journey has given me much confidence and triggered my interest in the tech field. Passionate about creating a solution for business improvement that has a real influence on people’s life.
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div id="experience">
+    <h2>EXPERIENCE</h2>
+    <div class="timeline">
+      <div class="tl-container left">
+        <div class="content" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne">
+          <h3>Full-Stack Web Developer</h3>
+          <h5><i class="fas fa-map-marker-alt"></i> - Melbourne, Australia</h5>
+        </div>
+        <div class="collapse" id="collapseOne">
+          <br>
+          <h4><i class="fas fa-building"></i> Hunting an Opportunity</h4>
+          <h4>Jan 2020 - Present</h4>
+          <p>Working on my own project in Ruby on Rails!</p>
+        </div>
+      </div>
+      <div class="tl-container right">
+        <div class="content" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="true" aria-controls="collapseTwo">
+          <h3>Coffee Quality Inspector</h3>
+          <h5><i class="fas fa-map-marker-alt"></i> - Chinchiná, Colombia</h5>
+        </div>
+        <div class="collapse" id="collapseTwo">
+          <br>
+          <h4><i class="fas fa-building"></i> Invercafé Ltda.</h4>
+          <h4>Sep 2019 - Dec 2019</h4>
+          <p>Production Management of Green Coffee Beans</p>
+          <ul>
+            <li><i class="fas fa-thumbtack"></i> Individual Collaboration</li>
+            <li><i class="fas fa-thumbtack"></i> Conversational Spanish</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-container left">
+        <div class="content" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
+          <h3>Coffee Production Manager</h3>
+          <h5><i class="fas fa-map-marker-alt"></i> - London, The UK</h5>
+        </div>
+        <div class="collapse" id="collapseThree">
+          <br>
+          <h4><i class="fas fa-building"></i> The Roasting Shed</h4>
+          <h4>Jul 2018 - Sep 2019</h4>
+          <p>Production Management of Specialty Coffee</p>
+          <ul>
+            <li><i class="fas fa-thumbtack"></i> Task Management</li>
+            <li><i class="fas fa-thumbtack"></i> Efficient Teamwork</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-container right">
+        <div class="content" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">
+          <h3>Coffee Customer Service</h3>
+          <h5><i class="fas fa-map-marker-alt"></i> - London, The UK</h5>
+        </div>
+        <div class="collapse" id="collapseFour">
+          <br>
+          <h4><i class="fas fa-building"></i> Look Mum No Hands Café!</h4>
+          <h4>Jan 2018 - Jul 2018</h4>
+          <p>Specialty Coffee Barista</p>
+          <ul>
+            <li><i class="fas fa-thumbtack"></i> Customer Service</li>
+            <li><i class="fas fa-thumbtack"></i> English Proficiency</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-container left">
+        <div class="content" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseFive">
+          <h3>Relationship Manager</h3>
+          <h5><i class="fas fa-map-marker-alt"></i> - In Japan</h5>
+        </div>
+        <div class="collapse" id="collapseFive">
+          <br>
+          <h4><i class="fas fa-building"></i> Yuasa Trading Co.</h4>
+          <h4>Apr 2013 ~ Jul 2017</h4>
+          <p>Partnership Management / Account & Order Management</p>
+          <ul>
+            <li><i class="fas fa-thumbtack"></i> Relationship Management</li>
+            <li><i class="fas fa-thumbtack"></i> Sales & Marketing</li>
+            <li><i class="fas fa-thumbtack"></i> Project Management</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-container right">
+        <div class="content" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix">
           <h3>Bachelor of Business Administration</h3>
-          <p class="education-date">Apr 2009 - Mar 2013</p>
-          <p>Activity: American Football Club</p>
-          <p>- Organisational Theory / Team Management / Teamwork / Logical Thinking / Communication</p>
-          <hr>
+          <h5><i class="fas fa-university"></i></i> - Kinki University, Japan</h5>
         </div>
-      </div><!-- /.project-main -->
+        <div class="collapse" id="collapseSix">
+          <br>
+          <h4>Apr 2009 ~ Mar 2013</h4>
+          <h4>American Football Club</h4>
+          <ul>
+            <li><i class="fas fa-thumbtack"></i> Organisational Theory</li>
+            <li><i class="fas fa-thumbtack"></i> Team Management</li>
+            <li><i class="fas fa-thumbtack"></i> Logicak Thinking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-        <aside class="col-md-4 sidebar">
-          <div class="p-4 mb-3 bg-light rounded">
-            <h4 class="font-italic">About</h4>
-            <p class="mb-0">Successful Relationship Management for 4+ years in Japan and Production Management for 2 years in the UK & Colombia. I am competent in Overlooking with Teamwork/Individual Collaboration and have a high EQ(Emotional Awareness) so that I can see any problems/needs quickly.</p>
+  <!-- SKILLS -->
+  <div id="skills" class="skills-banner-img">
+    <div class="skills-title">
+      <h2>ABILITY</h2>
+    </div>
+    <div class="main-container">
+      <div class="skill-grid">
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-gem"></i>
           </div>
-
-          <div class="p-4 mb-3 bg-light rounded">
-            <h4 class="font-italic">Personal Skills</h4>
-            <ol class="mb-0">
-              <li>Emotional Awareness</li>
-              <li>Overlooking on Teamwork/Collaboration</li>
-              <li>Logical Thinking for Problem-Solving</li>
-              <li>Relationship Management</li>
-              <li>Native Japanese Proficiency</li>
-              <li>Research for Japanese Market</li>
-            </ol>
+          <div class="skill-back">
+            <p>Ruby (Rails)</p>
           </div>
-
-          <div class="p-4 mb-3 bg-light rounded">
-            <h4 class="font-italic">Technical Skills</h4>
-            <ol class="">
-              <li>Ruby on Rails</li>
-              <li>Javascript(ES6)</li>
-              <li>Bootstrap</li>
-              <li>HTML5/CSS</li>
-              <li>GitHub/git</li>
-            </ol>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
           </div>
-
-          <div class="p-4 mb-3 bg-light rounded">
-            <h4 class="font-italic">Technical Skills</h4>
-            <ol class="">
-              <li>Coffee & Beer</li>
-              <li>Weight Training</li>
-              <li>Non-Fiction (e.g. Anthropology, Busisness, Science and History etc)</li>
-              <li>American Football</li>
-              <li>International Relationship</li>
-            </ol>
+          <div class="skill-back">
+            <p>HTML</p>
           </div>
-        </aside><!-- /.sidebar -->
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fab fa-css3"></i>
+          </div>
+          <div class="skill-back">
+            <p>CSS</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="skill-back">
+            <p>JavaScript ES6</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="skill-back">
+            <p>GitHub</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="skill-back">
+            <p>SQLite PostgreSQL</p>
+          </div>
+        </div>
 
-    </div><!-- /.row -->
-  </main><!-- /.container -->
+        <div class="skill-box">
+          <div class="skill">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bootstrap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+            </svg>
+          </div>
+          <div class="skill-back">
+            <p>Bootstrap</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="skill-back">
+            <p>Web Scraping</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <div class="skill-back">
+            <p>Relatopnship Management</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="skill-back">
+            <p>Team Management</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-language"></i>
+          </div>
+          <div class="skill-back">
+            <p>Japanese<br>English<br>Spanish</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-heart"></i>
+          </div>
+          <div class="skill-back">
+            <p>Respectful</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <footer class="blog-footer">
-    <p>CONTACT</p>
-    <a href="#" target="_blank"><i class="fab fa-instagram m-3"></i></a>
-    <a href="#" target="_blank"><i class="fab fa-facebook-square m-3"></i></a>
-    <a href="#" target="_blank"><i class="fab fa-linkedin m-3"></i></a>
-    <a href="#" target="_blank"><i class="fab fa-github-square m-3"></i></a>
-    <p>Copyright &copy; Keiichi Katsuno, Coffee & Tech Enthusiast</p>
+  <!-- CONTACT -->
+  <div id="contact">
+    <h2>LOCATION AT</h2>
+    <div class="main-container">
+      <div class="contact-box">
+        <div class="contact">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>MELBOURNE, AUSTRALIA!</h3>
+        </div>
+      </div>
+    </div>
+    <div class="resume">
+      <a target="blank" href="files/.pdf">DOWNLOAD CV</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <h5>FOLLOW ME</h5>
+    <a class="sns" href="#" target="_blank"><i class="fab fa-instagram m-3"></i></a>
+    <a class="sns" href="#" target="_blank"><i class="fab fa-facebook-square m-3"></i></a>
+    <a class="sns" href="#" target="_blank"><i class="fab fa-linkedin m-3"></i></a>
+    <a class="sns" href="#" target="_blank"><i class="fab fa-github-square m-3"></i></a>
+    <div class="footer-copyright"></div>
+    <br>
+    <p>Copyright &copy; Coffee & Tech Freak Keiichi</p>
     <p>
-      <a href="#">Back to top</a>
     </p>
   </footer>
+  <script src="js/index.js"></script>
 </body>
 </html>
 

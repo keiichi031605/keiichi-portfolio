@@ -1,0 +1,120 @@
+
+.projects h1 {
+  color: #7B1010;
+}
+
+
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 4vh 0vh 16vh 8vh;
+  perspective: 900px;
+}
+
+.projects-wrapper a {
+  width: 40%;
+}
+
+.card {
+  animation: entry 1s linear 1;
+  box-shadow: 0px 20px 50px #555;
+  color: white;
+  height: 100%;
+  perspective: 900px;
+  transition: .5s all ease;
+  transform: rotateX(60deg) scale(0.7);
+  width: 90%;
+}
+
+#card-0 {
+  background: linear-gradient(to bottom, #315545 30%, #31554559 100%);
+}
+
+#card-1 {
+  background: linear-gradient(to bottom, #292926 45%, #282825b8 100%);
+}
+
+/*#card-2 {
+  background: linear-gradient(to bottom, #292926 45%, #282825b8 100%);
+}*/
+
+.card img {
+  width: 100%
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: rotate(0deg) scale(1) translateY(10px);
+  transition: .5s all ease;
+  z-index: 400;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: black;
+}
+
+.story h3 {
+  text-align: center;
+  margin: 24px 0px;
+}
+
+.card p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 150%;
+  padding: 0px 20px 20px 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
+@media (hover: none) {
+  .card {
+    transform: none;
+  }
+  .hover-msg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .card {
+    transform: none;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin-bottom: 4vh;
+    transform: none;
+  }
+
+  .projects-wrapper {
+    display: block;
+    height: 48%;
+    margin: 4vh 0vh 8vh 8vh;
+    width: 80%;
+  }
+
+  #card-1 {
+    left: 0;
+    top: 110%;
+  }
+
+  .page-title {
+    padding-left: 2vh;
+  }
+}
+
+
+
