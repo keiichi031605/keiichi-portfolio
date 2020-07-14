@@ -22,13 +22,12 @@ body {
 
 body, html {
   margin: 0;
-  /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Squada One', cursive;
   background-color: #FBF5F3;
 }
 
 h2 {
-  color: #00008B;
+  color: #292926;
   text-align: center;
   letter-spacing: 10px;
   margin: 100px 0px 50px 0px;

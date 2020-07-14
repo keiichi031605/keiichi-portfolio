@@ -10,22 +10,22 @@
   justify-content: space-between;
 }
 
-.navbar-name {
+/*.navbar-name {
   display: flex;
   margin-left: 50px;
-}
+}*/
 
-.navbar-name a {
+/*.navbar-name a {
   text-decoration: none;
-  color: white;
+  color: #FBF5F3;
   font-size: small;
   opacity: .8;
-}
+}*/
 
-.navbar-name a:hover {
+/*.navbar-name a:hover {
   transition: 0.2s ease;
   opacity: 1;
-}
+}*/
 
 .navbar-list {
   display: flex;
@@ -45,7 +45,7 @@
 
 .navbar-list a {
   text-decoration: none;
-  color: white;
+  color: #FBF5F3;
   opacity: .8;
 }
 
