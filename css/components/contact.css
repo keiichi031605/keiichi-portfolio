@@ -9,6 +9,7 @@
   margin: 0;
   letter-spacing: 2px;
   font-size: 36px;
+  color: #f99821;
 }
 
 .contact a {
@@ -18,7 +19,7 @@
 }
 
 .contact i {
-  color: #222;
+  color: #f99821;
   font-size: 40px;
   margin-right: 36px;
 }
