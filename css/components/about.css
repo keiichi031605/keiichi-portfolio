@@ -20,19 +20,18 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 36px;
   margin: 0 auto;
-
   /*background-color: rgba(0, 0, 0, 0.58);*/
 }
 
-.text-box {
+.text-box p{
   color: white;
-  width: 350px;
+  width: 320px;
   text-align: justify;
   display: flex;
   padding: 12px;
   align-items: flex-start;
   justify-content: space-around;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
 }
 
