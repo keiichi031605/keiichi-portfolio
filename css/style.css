@@ -41,9 +41,6 @@ p {
   /*margin-bottom: 50px;*/
 }
 
-a {
-  text-decoration: none;
-}
 
 #projects, #experience, #about, #skills, #contact {
   scroll-margin-top: 100px;

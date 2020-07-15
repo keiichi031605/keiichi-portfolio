@@ -44,8 +44,8 @@
   text-decoration: none;
 }
 
-.card:hover {
-  background-color: black;
+a:hover {
+  text-decoration: none;
 }
 
 .story h3 {
