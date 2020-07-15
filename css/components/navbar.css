@@ -93,14 +93,13 @@
   padding-top: 150px;
 }
 
-.banner-text h2 {
+.banner-text h1 {
   color: white;
-  font-size: 36px;
 }
 
 .banner-text p {
   color: white;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 
