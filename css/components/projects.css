@@ -27,15 +27,15 @@
 }
 
 #card-0 {
-  background: linear-gradient(to bottom, #315545 30%, #31554559 100%);
+  background: linear-gradient(to bottom, #84cbda 45%, #0f627b2e 100%);
 }
 
 #card-1 {
-  background: linear-gradient(to bottom, #292926 45%, #282825b8 100%);
+  background: linear-gradient(to bottom, #315545 30%, #31554559 100%);
 }
 
 #card-2 {
-  /*background: linear-gradient(to bottom, #00FFFF 45%, #282825b8 100%);*/
+  background: linear-gradient(to bottom, #292926 45%, #282825b8 100%);
 }
 
 .card img {
