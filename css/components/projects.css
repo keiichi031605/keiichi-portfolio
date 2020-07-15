@@ -34,9 +34,9 @@
   background: linear-gradient(to bottom, #292926 45%, #282825b8 100%);
 }
 
-/*#card-2 {
-  background: linear-gradient(to bottom, #292926 45%, #282825b8 100%);
-}*/
+#card-2 {
+  /*background: linear-gradient(to bottom, #00FFFF 45%, #282825b8 100%);*/
+}
 
 .card img {
   width: 100%
