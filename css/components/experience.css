@@ -10,7 +10,8 @@
   content: '';
   position: absolute;
   width: 6px;
-  background: linear-gradient(to bottom, #ff8808 10%, #f2dc06 90%);
+  background: #292926;
+/*  background: linear-gradient(to bottom, #ff8808 10%, #f2dc06 90%);*/
   top: 0;
   bottom: -0px;
   left: 50%;
@@ -74,13 +75,14 @@
   width: 25px;
   height: 25px;
   right: -12px;
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../images/About.jpg");
+  /*background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../images/About.jpg");*/
+  background: linear-gradient(to bottom, #ff0a0a 10%, #f2dc06 90%);
   object-fit: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 4px solid #ff0a0a;
+  border: 4px solid #292926;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
