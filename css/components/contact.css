@@ -46,7 +46,7 @@
   padding: 8px;
   width: fit-content;
   right: 20px;
-  bottom: -130px;
+  top: 70px;
   position: fixed;
   background: rgb(251, 245, 243);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
