@@ -54,7 +54,7 @@
 
 .resume a:hover {
   color: black;
-  border-color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0.4);
   background: #ffffff;
   /*background: linear-gradient(to bottom, #FBF5F3 45%, #ffffff 100%);*/
   transition: .7s ease;
