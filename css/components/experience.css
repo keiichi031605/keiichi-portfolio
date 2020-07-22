@@ -136,7 +136,7 @@
   padding: 20px 30px;
   position: relative;
   border-radius: 6px;
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../images/About.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../images/Experience.jpg");
   object-fit: cover;
   background-attachment: fixed;
   background-position: center;
