@@ -13,14 +13,15 @@
   padding-top: 100px;
 }
 
-
-
 .about-text {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 36px;
+  grid-template-columns: 1fr;
+  /*grid-gap: 36px;*/
   margin: 0 auto;
-  /*background-color: rgba(0, 0, 0, 0.58);*/
+  background-color: rgba(0, 0, 0, 0.58);
+  width: 360;
+  height: 480px;
+  overflow: scroll;
 }
 
 .text-box p{
@@ -30,8 +31,8 @@
   padding: 12px;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
+  text-indent:12px;
 }
-
 
 #about img {
   display: flex;

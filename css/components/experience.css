@@ -11,7 +11,6 @@
   position: absolute;
   width: 6px;
   background: #292926;
-/*  background: linear-gradient(to bottom, #ff8808 10%, #f2dc06 90%);*/
   top: 0;
   bottom: -0px;
   left: 50%;
@@ -28,10 +27,11 @@
 }
 
 .tl-container h3 {
-  font-size: 34px;
+  font-size: 27px;
   color: #FBF5F3;
-  padding-bottom: 20px;
-  font-family: 'Squada One', cursive;
+  padding-bottom: 15px;
+  padding-top: 6px;
+  /*font-family: 'Squada One', cursive;*/
 }
 
 .tl-container h4 {
@@ -42,9 +42,9 @@
 }
 
 .tl-container h5 {
-  color: #FBF5F3;
+  color: #DCDCDC;
   text-align: right;
-  font-size: 22px;
+  font-size: 19px;
 }
 
 

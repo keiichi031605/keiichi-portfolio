@@ -27,6 +27,7 @@ body, html {
 }
 
 h1 {
+  font-size: 44px;
   color: #292926;
   text-align: center;
   letter-spacing: 10px;
@@ -38,7 +39,6 @@ p {
   color: #222;
   text-align: center;
   letter-spacing: 2px;
-  /*margin-bottom: 50px;*/
 }
 
 
