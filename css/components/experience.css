@@ -145,7 +145,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+  }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
