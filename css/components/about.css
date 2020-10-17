@@ -20,14 +20,14 @@
   /*grid-gap: 36px;*/
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.58);
-  width: 360;
+  width: 480px;
   height: 480px;
   overflow: scroll;
 }
 
 .text-box p{
   color: white;
-  width: 360px;
+  width: 480px;
   text-align: left;
   padding: 12px;
   font-size: 16px;
@@ -45,7 +45,11 @@
 /* Media queries */
 
 @media(max-width: 768px) {
-  .cards, .about-text {
-    grid-template-columns: 1fr;
+  .about-text {
+    /*grid-template-columns: 1fr;*/
+    width: 360px;
+  }
+  .text-box p {
+    width: 360px;
   }
 }
