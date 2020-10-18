@@ -18,6 +18,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="js/bootstrap.min.js"></script>
+  <!-- Mapbox -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+
+
 </head>
 
 <body>
@@ -336,6 +341,17 @@
           <h3>MELBOURNE, AUSTRALIA!</h3>
         </div>
       </div>
+        <div id='map'></div>
+      <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoia2VpY2hpMDMxNjA1IiwiYSI6ImNrOXhyZ2lyeTBpYWgzZXF3bnM5bGdvOHoifQ.PHe6s4fxz4wH6wGvR_bSGw';
+        var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11'
+        });
+      </script>
+
+
+
     </div>
     <div class="resume">
       <a target="blank" href="images/Cv.pdf">DOWNLOAD CV</a>

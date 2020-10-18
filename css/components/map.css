@@ -1,0 +1,15 @@
+.location-wrapper {
+  margin: 12vh 0vh 12vh 0vh;
+  perspective: 900px;
+  height: 60vh;
+  padding-top: 20px;
+}
+
+#map {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
