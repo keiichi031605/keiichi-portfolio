@@ -1,5 +1,4 @@
-@import url('components/about.css');
-@import url('components/experience.css');
+/*@import url('components/experience.css');*/
 @import url('components/navbar.css');
 @import url('components/projects.css');
 @import url('components/skills.css');
@@ -43,7 +42,7 @@ p {
 }
 
 
-#projects, #experience, #about, #skills, #contact {
+#projects, #about, #skills, #contact {
   scroll-margin-top: 100px;
 }
 
