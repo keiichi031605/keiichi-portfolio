@@ -1,6 +1,6 @@
 #navbar-wrapper {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   opacity: 1;
   height: 50px;
   width: 100vw;
@@ -8,23 +8,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.navbar-name {
-  display: flex;
-  margin-left: 50px;
-}
-
-.navbar-name a {
-  text-decoration: none;
-  color: white;
-  font-size: small;
-  opacity: .8;
-}
-
-.navbar-name a:hover {
-  transition: 0.2s ease;
-  opacity: 1;
 }
 
 .navbar-list {
@@ -45,15 +28,13 @@
 
 .navbar-list a {
   text-decoration: none;
-  color: white;
+  color: #FBF5F3;
   opacity: .8;
 }
 
 .navbar-list a:hover {
-  /* color: #F6DB48; */
   transition: 0.2s ease;
   opacity: 1;
-  /* border-bottom: 1px solid #f6db48; */
 }
 
 .navbar-list li {
@@ -76,8 +57,10 @@
   transition: all 0.3s ease;
 }
 
+/*About banner*/
+
 .banner-img {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../images/Background.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../images/About.jpg");
   object-fit: cover;
   height: 100vh;
   background-attachment: fixed;
@@ -90,18 +73,46 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
-.banner-text h2 {
+.title h1 {
   color: white;
-  font-size: 36px;
+  /*margin: 100px 0px 50px 0px;*/
 }
 
-.banner-text p {
+.title p {
   color: white;
-  font-size: 24px;
+  font-size: 28px;
 }
+
+.about-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.58);
+  width: 600px;
+  height: 360px;
+  overflow: scroll;
+  margin-top: 36px;
+}
+
+.about-text p{
+  color: white;
+  width: 600px;
+  text-align: left;
+  padding: 12px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-indent:12px;
+}
+
+/*#about img {
+  display: flex;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto 50px auto;
+}*/
 
 
 @media screen and (max-width:768px) {
@@ -139,8 +150,18 @@
   .burger {
     display: block;
   }
+
+    .about-text {
+    /*grid-template-columns: 1fr;*/
+    width: 360px;
+  }
+  .about-text p {
+    width: 360px;
+  }
 }
 
 .nav-active {
   transform: translateX(0%)
 }
+
+

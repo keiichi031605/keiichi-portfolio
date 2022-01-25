@@ -9,6 +9,7 @@
   margin: 0;
   letter-spacing: 2px;
   font-size: 36px;
+  color: #ff6d00;
 }
 
 .contact a {
@@ -18,9 +19,9 @@
 }
 
 .contact i {
-  color: #222;
-  font-size: 36px;
-  margin-right: 16px;
+  color: #ff6d00;
+  font-size: 40px;
+  margin-right: 36px;
 }
 
 .contact-box {
@@ -35,20 +36,27 @@
 
 .resume a {
   text-decoration: none;
-  color: #222;
+  color: #292926  ;
   letter-spacing: 2px;
-  font-size: 24px;
+  font-size: 15px;
   text-align: center;
   margin-bottom: 150px;
-  border: 1px solid rgb(145, 145, 145);
+  border: 2px solid #292926;
   border-radius: 4px;
   padding: 8px;
   width: fit-content;
+  right: 20px;
+  bottom: -130px;
+  position: fixed;
+  background: #FBF5F3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .resume a:hover {
   color: black;
-  border-color: black;
+  border-color: rgba(0, 0, 0, 0.4);
+  background: #ffffff;
+  /*background: linear-gradient(to bottom, #FBF5F3 45%, #ffffff 100%);*/
   transition: .7s ease;
 }
 

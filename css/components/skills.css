@@ -1,16 +1,17 @@
 .skills-banner-img {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../images/Skills.jpg");
   object-fit: cover;
-  height: 100%;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /*padding-top: 100px;*/
+  margin-top: 0px;
 }
 
-.skills-title h2 {
+.skills-title h1 {
   color: white;
-  padding-top: 100px;
 }
 
 
@@ -21,7 +22,7 @@
   margin: 0 auto;
 }
 
-.skill, .skill-back {
+.skill, .skill-back, .p-skill-back {
   width: 150px;
   height: 150px;
   background: white;
@@ -36,14 +37,24 @@
   backface-visibility: hidden;
 }
 
+/*tech skills back font*/
 .skill-back p {
-  font-size: 12px;
   font-weight: 600;
   text-align: center;
-  color: white;
+  color: #FBF5F3;
   line-height: 2;
   margin: 12px;
-  font-size:20px;
+  font-size:24px;
+}
+
+/*personal skills back font*/
+.p-skill-back p {
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  line-height: 2;
+  margin: 12px;
+  font-size:24px;
 }
 
 .skill-box {
@@ -57,10 +68,19 @@
   transition-duration: .5s;
 }
 
+/*tech skills back*/
 .skill-back {
   position: absolute;
   top: 0;
-  background: linear-gradient(to bottom, #292926 30%, #282825b8 100%);
+  background: linear-gradient(to bottom, #ff0a0a 45%, #ff8808 100%);
+  transform: rotateY(180deg);
+}
+
+/*personal skills back*/
+.p-skill-back {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(to bottom, #ff650f 45%, #ffcb00 100%);
   transform: rotateY(180deg);
 }
 

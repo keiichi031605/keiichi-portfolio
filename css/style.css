@@ -1,10 +1,10 @@
-@import url('components/about.css');
-@import url('components/experience.css');
+/*@import url('components/experience.css');*/
 @import url('components/navbar.css');
 @import url('components/projects.css');
 @import url('components/skills.css');
 @import url('components/contact.css');
 @import url('components/footer.css');
+@import url('components/map.css');
 
 html {
   scroll-behavior: smooth;
@@ -22,28 +22,27 @@ body {
 
 body, html {
   margin: 0;
-  /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Squada One', cursive;
   background-color: #FBF5F3;
 }
 
-h2 {
-  color: #00008B;
+h1 {
+  font-size: 44px;
+  color: #292926;
   text-align: center;
   letter-spacing: 10px;
   margin: 100px 0px 50px 0px;
-  font-size:36px;
 }
 
 
 p {
   color: #222;
   text-align: center;
-  letter-spacing: 3px;
-  /*margin-bottom: 50px;*/
+  letter-spacing: 2px;
 }
 
-#projects, #experience, #about, #skills, #contact {
+
+#projects, #about, #skills, #contact {
   scroll-margin-top: 100px;
 }
 
