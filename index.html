@@ -1,332 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Keiichi Katsuno</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <!-- Bootstrap CSS -->
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Patua+One&family=Squada+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-  <!-- Fontawesome CSS -->
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"> -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- Mapbox -->
-  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+  <head>
+    <title>Keiichi Katsuno</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    
+    <!-- vue development version, includes helpful console warnings -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
 
-</head>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Patua+One&family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Mapbox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- Vue js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  </head>
 
-<body>
-  <div id="about" class="banner-img">
-    <div id="navbar-wrapper">
-      <div class="navbar-list">
-        <ul>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#skills">SKILLS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
+  <body>
+    <!-- <include src="./header.html"></include> -->
+    <div id="about" class="banner-img">
+      <div id="navbar-wrapper">
+        <div class="navbar-list">
+          <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </div>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </div>
+      
+      <div class="banner-text-box">
+        <div class="title">
+          <h1>KEIICHI KATSUNO</h1>
+          <p>Web Developer</p>
 
-    <div class="banner-text-box">
-      <div class="title">
-        <h1>KEIICHI KATSUNO</h1>
-        <p>Web Developer</p>
-
-        <div class="about-text">
-          <p>
-            A Ruby on Rails developer based in Melbourne, passionate about product development.
+          <div class="about-text">
+            <p>
+              A Ruby on Rails developer based in Melbourne, passionate about product development.
+            </p>
+            <p>
+              My career progression has zigzagged for the past 8 years in various industries and countries, started with Sales and Marketing in manufacturing equipment and machinery in Japan, turned into Production in coffee in The UK and Colombia, and finally, ended up in Software Development for the sports industry in Australia, which currently I am obsessed with. These journeys have always been shaping my personality and growing my confidence to survive in this competitive world. Now, I understand what I want to do / should do / will do in my career. 
+            </p>
+            <p>
+              I place a high value on Integrity, having Respect for people and diverse cultures, and Proactivity and Responsibility for making my own decision.
           </p>
-          <p>
-            My career progression has zigzagged for the past 8 years in various industries and countries, started with Sales and Marketing in manufacturing equipment and machinery in Japan, turned into Production in coffee in The UK and Colombia, and finally, ended up in Software Development for the sports industry in Australia, which currently I am obsessed with. These journeys have always been shaping my personality and growing my confidence to survive in this competitive world. Now, I understand what I want to do / should do / will do in my career. 
-          </p>
-          <p>
-            I place a high value on Integrity, having Respect for people and diverse cultures, and Proactivity and Responsibility for making my own decision.
-         </p>
-       </div>
-     </div>
-   </div>
-
- </div>
-
- <!-- PROJECTS -->
- <div class="projects" id="projects">
-  <h1>PROJECTS</h1>
-  <div class="projects-wrapper">
-    <a href="https://friendr-404.herokuapp.com/" target="_blank">
-      <div class="card" id="card-0">
-        <img src="images/Friendr.jpg" alt="Friendr">
-        <div class="story">
-          <div class="info">
-            <h3>FRIENDR</h3>
-            <p>Literally friend sharing service. You can rent someone's nice friends / lend your great friends to someone for any purposes. This is my first web app created with my real friends.</p>
-          </div>
         </div>
-      </div>
-    </a>
-    <a href="https://www.whatsthespot.com/" target="_blank">
-      <div class="card" id="card-1">
-        <img src="images/Whatspot.jpg" alt="WhatSpot">
-        <div class="story">
-          <div class="info">
-            <h3>WhatSpot</h3>
-            <p>Spot sharing mobile app that you can share any places or recommendations with your friends so that you get more trustable information for your upcoming weekend!</p>
-          </div>
-        </div>
-      </div>
-    </a>
-    <a href="" target="_blank">
-      <div class="card" id="card-2">
-        <img src="./images/Abd.jpg" alt="AdelaideBatDoctor">
-        <div class="story">
-          <div class="info">
-            <h3>Adelaide Bat Doctor</h3>
-            <p>This is my first order of website development as a freelance developer, for an enterprise.</p>
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
-
-<!-- SKILLS -->
-<div id="skills" class="skills-banner-img">
-  <div class="skills-title">
-    <h1>SKILLS</h1>
-  <div class="main-container">
-    <div class="skill-grid">
-
-      <div class="skill-box">
-        <div class="skill">
-          <i class="fas fa-gem"></i>
-        </div>
-        <div class="skill-back">
-          <p>Ruby (Rails)</p>
-        </div>
-      </div>
-      <div class="skill-box">
-        <div class="skill">
-          <i class="fab fa-html5"></i>
-        </div>
-        <div class="skill-back">
-          <p>HTML</p>
-        </div>
-      </div>
-      <div class="skill-box">
-        <div class="skill">
-          <i class="fab fa-css3"></i>
-        </div>
-        <div class="skill-back">
-          <p>CSS</p>
-        </div>
-      </div>
-      <div class="skill-box">
-        <div class="skill">
-          <i class="fab fa-js-square"></i>
-        </div>
-        <div class="skill-back">
-          <p>JavaScript (React)</p>
-        </div>
-      </div>
-      <div class="skill-box">
-        <div class="skill">
-          <i class="fas fa-code"></i>
-        </div>
-        <div class="skill-back">
-          <p>UI/UX Design</p>
-        </div>
-      </div>
-      <div class="skill-box">
-        <div class="skill">
-          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bootstrap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
-          </svg>
-        </div>
-        <div class="skill-back">
-          <p>Bootstrap</p>
-        </div>
-      </div>
-      <div class="skill-box">
-        <div class="skill">
-          <i class="fas fa-database"></i>
-        </div>
-        <div class="skill-back">
-          <p>SQLite PostgreSQL</p>
-        </div>
-      </div>
-      <div class="skill-box">
-        <div class="skill">
-          <i class="fab fa-github"></i>
-        </div>
-        <div class="skill-back">
-          <p>GitHub</p>
-        </div>
-      </div>
-
-  </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- CONTACT -->
-<div id="contact">
-  <h1>LOCATION</h1>
-  <div class="main-container">
-    <div class="contact-box">
-      <div class="contact">
-        <i class="fas fa-map-marker-alt"></i>
-        <h3>MELBOURNE, AUSTRALIA!</h3>
       </div>
     </div>
-    <div class="location-wrapper">
-      <div id='map'>
-        <script>
-          mapboxgl.accessToken = 'pk.eyJ1Ijoia2VpY2hpMDMxNjA1IiwiYSI6ImNrOXhyZ2lyeTBpYWgzZXF3bnM5bGdvOHoifQ.PHe6s4fxz4wH6wGvR_bSGw';
-          var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11'
-          });
-        </script>
+
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="projects" id="projects">
+    <h1>PROJECTS</h1>
+    <div class="projects-wrapper">
+      <a href="https://friendr-404.herokuapp.com/" target="_blank">
+        <div class="card" id="card-0">
+          <img src="images/Friendr.jpg" alt="Friendr">
+          <div class="story">
+            <div class="info">
+              <h3>FRIENDR</h3>
+              <p>Literally friend sharing service. You can rent someone's nice friends / lend your great friends to someone for any purposes. This is my first web app created with my real friends.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.whatsthespot.com/" target="_blank">
+        <div class="card" id="card-1">
+          <img src="images/Whatspot.jpg" alt="WhatSpot">
+          <div class="story">
+            <div class="info">
+              <h3>WhatSpot</h3>
+              <p>Spot sharing mobile app that you can share any places or recommendations with your friends so that you get more trustable information for your upcoming weekend!</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="" target="_blank">
+        <div class="card" id="card-2">
+          <img src="./images/Abd.jpg" alt="AdelaideBatDoctor">
+          <div class="story">
+            <div class="info">
+              <h3>Adelaide Bat Doctor</h3>
+              <p>This is my first order of website development as a freelance developer, for an enterprise.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div id="skills" class="skills-banner-img">
+    <div class="skills-title">
+      <h1>SKILLS</h1>
+    <div class="main-container">
+      <div class="skill-grid">
+
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-gem"></i>
+          </div>
+          <div class="skill-back">
+            <p>Ruby (Rails)</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="skill-back">
+            <p>HTML</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fab fa-css3"></i>
+          </div>
+          <div class="skill-back">
+            <p>CSS</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="skill-back">
+            <p>JavaScript (React)</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="skill-back">
+            <p>UI/UX Design</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bootstrap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+            </svg>
+          </div>
+          <div class="skill-back">
+            <p>Bootstrap</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="skill-back">
+            <p>SQLite PostgreSQL</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="skill-back">
+            <p>GitHub</p>
+          </div>
+        </div>
+
+    </div>
       </div>
     </div>
   </div>
-  <div class="resume">
-    <a target="blank" href="images/Cv.pdf">DOWNLOAD CV</a>
+
+
+  <!-- CONTACT -->
+  <div id="contact">
+    <h1>LOCATION</h1>
+    <div class="main-container">
+      <div class="contact-box">
+        <div class="contact">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>MELBOURNE, AUSTRALIA!</h3>
+        </div>
+      </div>
+      <div class="location-wrapper">
+        <div id='map'>
+          <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoia2VpY2hpMDMxNjA1IiwiYSI6ImNrOXhyZ2lyeTBpYWgzZXF3bnM5bGdvOHoifQ.PHe6s4fxz4wH6wGvR_bSGw';
+            var map = new mapboxgl.Map({
+              container: 'map',
+              style: 'mapbox://styles/mapbox/streets-v11'
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+    <div class="resume">
+      <a target="blank" href="images/Cv.pdf">DOWNLOAD CV</a>
+    </div>
   </div>
-</div>
 
 
-<footer class="footer">
-  <h5>CONTACT ME</h5>
-  <a class="sns" href="https://www.instagram.com/keiichicoffee/" target="_blank"><i class="fab fa-instagram m-3"></i></a>
-  <a class="sns" href="https://www.facebook.com/keiichi.katsuno" target="_blank"><i class="fab fa-facebook-square m-3"></i></a>
-  <a class="sns" href="https://www.linkedin.com/in/keiichi-katsuno-9120ab156/" target="_blank"><i class="fab fa-linkedin m-3"></i></a>
-  <a class="sns" href="https://github.com/keiichi031605" target="_blank"><i class="fab fa-github-square m-3"></i></a>
-  <div class="footer-copyright"></div>
-  <br>
-  <p>Copyright &copy; Keiichi Tech Freak </p>
-</footer>
-<script src="js/index.js"></script>
-</body>
+  <footer class="footer">
+    <h5>CONTACT ME</h5>
+    <a class="sns" href="https://www.instagram.com/keiichicoffee/" target="_blank"><i class="fab fa-instagram m-3"></i></a>
+    <a class="sns" href="https://www.facebook.com/keiichi.katsuno" target="_blank"><i class="fab fa-facebook-square m-3"></i></a>
+    <a class="sns" href="https://www.linkedin.com/in/keiichi-katsuno-9120ab156/" target="_blank"><i class="fab fa-linkedin m-3"></i></a>
+    <a class="sns" href="https://github.com/keiichi031605" target="_blank"><i class="fab fa-github-square m-3"></i></a>
+    <div class="footer-copyright"></div>
+    <br>
+    <p>Copyright &copy; Keiichi Tech Freak </p>
+  </footer>
+  <script src="js/index.js"></script>
+  <script src="./main.js"></script>
+  </body>
 </html>
 
 
 
-<!-- KEEPING EXPERIENCE SECTION
-<div id="experience">
-  <h1>EXPERIENCE</h1>
-  <div class="timeline">
-    <div class="tl-container left">
-      <div class="content" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne">
-        <h3>Frontend Web Developer</h3>
-        <h5><i class="fas fa-building"></i>Freelance</h5>
-        <h5><i class="fas fa-map-marker-alt"></i>Melbourne, Australia</h5>
-        <h5>Jul 2020 - Present</h5>
-      </div>
-      <div class="collapse" id="collapseOne">
-        <h4>Developing the following skill-sets of:</h4>
-        <ul>
-          <li><i class="fas fa-thumbtack"></i> UX/UI Design</li>
-          <li><i class="fas fa-thumbtack"></i> Software Project Management</li>
-        </ul>
-      </div>
-    </div>
-    <div class="tl-container right">
-      <div class="content" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="true" aria-controls="collapseTwo">
-        <h3>Coffee Quality Inspector</h3>
-        <h5><i class="fas fa-building"></i> Invercafé Ltda, Diamond Coffee Group</h5>
-        <h5><i class="fas fa-map-marker-alt"></i>Chinchiná, Colombia</h5>
-        <h5>Sep 2019 - Dec 2019</h5>
-      </div>
-      <div class="collapse" id="collapseTwo">
-        <h4>Developed the following skill-sets of:</h4>
-        <ul>
-          <li><i class="fas fa-thumbtack"></i> Deep Industrial Knowledge</li>
-          <li><i class="fas fa-thumbtack"></i> Production Analysis & Development</li>
-          <li><i class="fas fa-thumbtack"></i> Limited Spanish Proficiency</li>
-        </ul>
-      </div>
-    </div>
-    <div class="tl-container left">
-      <div class="content" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
-        <h3>Coffee Production Manager</h3>
-        <h5><i class="fas fa-building"></i> The Roasting Shed Co.</h5>
-        <h5><i class="fas fa-map-marker-alt"></i>London, The UK</h5>
-        <h5>Jul 2018 - Sep 2019</h5>
-      </div>
-      <div class="collapse" id="collapseThree">
-        <h4>Developed the following skill-sets of:</h4>
-        <ul>
-          <li><i class="fas fa-thumbtack"></i> Products Analysis & Development</li>
-          <li><i class="fas fa-thumbtack"></i> Market Research</li>
-          <li><i class="fas fa-thumbtack"></i> Business English Proficiency</li>
-        </ul>
-      </div>
-    </div>
-    <div class="tl-container right">
-      <div class="content" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">
-        <h3>Specialty Coffee Barista</h3>
-        <h5><i class="fas fa-building"></i> Look Mum No Hands!</h5>
-        <h5><i class="fas fa-map-marker-alt"></i>London, The UK</h5>
-        <h5>Jan 2018 - Jul 2018</h5>
-      </div>
-      <div class="collapse" id="collapseFour">
-        <h4>Developed the following skill-sets of:</h4>
-        <ul>
-          <li><i class="fas fa-thumbtack"></i> Customer Service</li>
-          <li><i class="fas fa-thumbtack"></i> English Proficiency</li>
-        </ul>
-      </div>
-    </div>
-    <div class="tl-container left">
-      <div class="content" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseFive">
-        <h3>Relationship Manager</h3>
-        <h5><i class="fas fa-building"></i> Yuasa Trading Co.</h5>
-        <h5><i class="fas fa-map-marker-alt"></i>Osaka & Fukuoka, Japan</h5>
-        <h5>Apr 2013 ~ Jul 2017</h5>
-      </div>
-      <div class="collapse" id="collapseFive">
-        <h4>Developed the following skill-sets of:</h4>
-        <ul>
-          <li><i class="fas fa-thumbtack"></i> Sales & Marketing</li>
-          <li><i class="fas fa-thumbtack"></i> Project Management</li>
-          <li><i class="fas fa-thumbtack"></i> Relationship Development</li>
-          <li><i class="fas fa-thumbtack"></i> Negotiation</li>
-        </ul>
-      </div>
-    </div>
-    <div class="tl-container right">
-      <div class="content" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix">
-        <h3>Bachelor of Business Administration</h3>
-        <h5><i class="fas fa-university"></i></i> - Kinki University, Osaka, Japan </h5>
-        <h5>Apr 2009 ~ Mar 2013</h5>
-      </div>
-      <div class="collapse" id="collapseSix">
-        <h4>Outside of study, I engaged in American Football club where I learned:</h4>
-        <ul>
-          <li><i class="fas fa-thumbtack"></i> Organisational Theory</li>
-          <li><i class="fas fa-thumbtack"></i> Team Management</li>
-          <li><i class="fas fa-thumbtack"></i> Logical & Critical Thinking</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
--->
 
